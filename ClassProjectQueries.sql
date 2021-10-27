@@ -2,11 +2,6 @@ Select * from ClassProjectPortfolio..CovidDeath$
 where continent is not null
 order by 3,4
 
---Select * from ClassProjectPortfolio..CovidVaccine$
---order by 3,4
-
---Select data
-
 Select Location, date, total_cases, new_cases, total_deaths, population
 from ClassProjectPortfolio..CovidDeath$
 where continent is not null
