@@ -1,7 +1,9 @@
+-- Take a quick glance at the data in SQL
 Select * from ClassProjectPortfolio..CovidDeath$
 where continent is not null
 order by 3,4
 
+--Look at the data which specific requirement to understand the dataset
 Select Location, date, total_cases, new_cases, total_deaths, population
 from ClassProjectPortfolio..CovidDeath$
 where continent is not null
